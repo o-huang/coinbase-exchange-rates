@@ -64,11 +64,11 @@ const inputError = computed(() => {
             <div class="grid grid-cols-2 gap-4 text-sm">
               <div>
                 <p class="text-xs text-slate-500">BTC/USD</p>
-                <p class="font-mono text-slate-900 wrap-break-words">{{ btcRate }}</p>
+                <p class="font-mono text-slate-900 break-words">{{ btcRate }}</p>
               </div>
               <div>
                 <p class="text-xs text-slate-500">ETH/USD</p>
-                <p class="font-mono text-slate-900 wrap-break-words">{{ ethRate }}</p>
+                <p class="font-mono text-slate-900 break-words">{{ ethRate }}</p>
               </div>
             </div>
           </section>

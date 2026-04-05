@@ -27,7 +27,7 @@ defineProps<Props>()
           <h3 class="text-lg font-semibold text-slate-900">{{ title }}</h3>
         </div>
         <p class="text-sm font-medium text-slate-500 mb-2">{{ allocation }}% Allocation</p>
-        <p class="text-2xl md:text-3xl font-bold text-slate-900 font-mono wrap-break-words">
+        <p class="text-2xl md:text-3xl font-bold text-slate-900 font-mono break-words">
           {{ amount }}
         </p>
       </div>
