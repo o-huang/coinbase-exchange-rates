@@ -20,7 +20,7 @@ const amountSchema = z
   .transform((val) => Number(val))
   .refine((num) => num > 0, 'Amount must be greater than 0')
 
-  // 
+//
 const inputError = computed(() => {
   if (!usdInput.value) return null
   const result = amountSchema.safeParse(usdInput.value)
