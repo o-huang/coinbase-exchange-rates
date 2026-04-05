@@ -4,5 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/coinbase-exchange-rates/',
   plugins: [tailwindcss(), vue()],
 })
